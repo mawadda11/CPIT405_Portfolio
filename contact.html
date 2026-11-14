@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mawadda Alsubhi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a class="brand" href="index.html">Mawadda Alsubhi</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="cv.html">My CV</a>
+                <a href="labs.html">Labs &amp; Projects</a>
+                <a href="contact.html" class="current">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <p class="hero-label">GET IN TOUCH</p>
+            <h1>Contact Me</h1>
+            <p>You can use the links below or send a message through the contact form.</p>
+        </section>
+
+        <div>
+            <section class="panel">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> <a href="mailto:malsubhi0166@stu.kau.edu.sa">malsubhi0166@stu.kau.edu.sa</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+966545059008">0545059008</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/mawadda11" target="_blank" rel="noopener noreferrer">github.com/mawadda11</a></p>
+            </section>
+
+            <section class="panel">
+                <h2>Send a Message</h2>
+                <p>Complete this form to send me an email.</p>
+                <!-- FormSubmit is allowed in the assignment. Verify the destination email to activate it. -->
+                <form action="https://formsubmit.co/malsubhi0166@stu.kau.edu.sa" method="POST">
+                    <input type="hidden" name="_subject" value="New message from CPIT-405 Portfolio">
+                    <label for="visitor-name">Your Name</label>
+                    <input id="visitor-name" type="text" name="name" placeholder="Your name" required>
+
+                    <label for="visitor-email">Your Email</label>
+                    <input id="visitor-email" type="email" name="email" placeholder="Your email" required>
+
+                    <label for="visitor-subject">Subject</label>
+                    <input id="visitor-subject" type="text" name="subject" placeholder="Message subject" required>
+
+                    <label for="visitor-message">Message</label>
+                    <textarea id="visitor-message" name="message" rows="6" placeholder="Write your message" required></textarea>
+
+                    <button class="button dark-button" type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mawadda Alsubhi | CPIT-405 Portfolio</p>
+        <p>Made with HTML and CSS</p>
+    </footer>
+</body>
+</html>
